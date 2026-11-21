@@ -146,8 +146,8 @@ sequenceDiagram
 ## Install
 
 ```bash
-git clone https://github.com/irti-11/Explainer_Agent-.git
-cd Explainer_Agent-
+git clone https://github.com/irti-11/Explain_Agent
+cd Explain_Agent
 ```
 
 **1. Add your key.** Copy the example config and paste in your own Groq key:
