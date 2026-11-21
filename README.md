@@ -32,12 +32,12 @@ Explain Agent keeps the explanation on the page you're reading.
 
 ## Before and after
 
-| Without it | With it |
-|---|---|
-| See an unknown word | See an unknown word |
-| Open a new tab and search | **Select it** |
-| Skim three explanations | Read one, written for *this* page |
-| Find your place again | You never left |
+| Without it                | With it                           |
+| ------------------------- | --------------------------------- |
+| See an unknown word       | See an unknown word               |
+| Open a new tab and search | **Select it**                     |
+| Skim three explanations   | Read one, written for _this_ page |
+| Find your place again     | You never left                    |
 
 ## What it does
 
@@ -52,33 +52,33 @@ Explain Agent keeps the explanation on the page you're reading.
 
 ## See it move
 
-| Mascot moods | White-space finder |
-|:---:|:---:|
+|                         Mascot moods                          |                            White-space finder                            |
+| :-----------------------------------------------------------: | :----------------------------------------------------------------------: |
 | <img src="./assets/moods.gif" alt="Mascot moods" width="380"> | <img src="./assets/whitespace.gif" alt="White-space finder" width="380"> |
-| It reacts to what's happening. | It looks for empty space instead of covering your text. |
+|                It reacts to what's happening.                 |         It looks for empty space instead of covering your text.          |
 
 ## It adapts to what you select
 
-| You select | It's treated as | You get |
-|---|---|---|
-| `API` | term | Plain meaning, what it means here, a tiny example, related terms |
-| `What is an API?` | sentence | The meaning in simple words, every hard term explained |
-| A longer block of text | paragraph | The big idea, then step by step, then a one-line summary |
-| A code snippet | code | What it does, line by line, and one common mistake |
+| You select             | It's treated as | You get                                                          |
+| ---------------------- | --------------- | ---------------------------------------------------------------- |
+| `API`                  | term            | Plain meaning, what it means here, a tiny example, related terms |
+| `What is an API?`      | sentence        | The meaning in simple words, every hard term explained           |
+| A longer block of text | paragraph       | The big idea, then step by step, then a one-line summary         |
+| A code snippet         | code            | What it does, line by line, and one common mistake               |
 
 ## Meet the mascot
 
-| Face | Mood | When |
-|:---:|---|---|
-| `( ◕ ‿ ◕ )` | Happy | An explanation is ready |
-| `( ◔ _ ◔ )` | Thinking | The answer is loading |
-| `( ✧ ▽ ✧ )` | Excited | The answer just landed |
-| `( ⊙ o ⊙ )` | Surprised | You selected something |
-| `( ◕ ‿ - )` | Wink | Now and then, for no reason |
-| `( ◕ ᴗ ◕ )` | Listening | You're typing a follow-up |
-| `( > ▽ < )` | Tongue out | You clicked it |
-| `( ᴗ _ ᴗ ) z` | Sleepy | 25 seconds of nothing |
-| `( ╥ _ ╥ )` | Sad | Something broke |
+|     Face      | Mood       | When                        |
+| :-----------: | ---------- | --------------------------- |
+|  `( ◕ ‿ ◕ )`  | Happy      | An explanation is ready     |
+|  `( ◔ _ ◔ )`  | Thinking   | The answer is loading       |
+|  `( ✧ ▽ ✧ )`  | Excited    | The answer just landed      |
+|  `( ⊙ o ⊙ )`  | Surprised  | You selected something      |
+|  `( ◕ ‿ - )`  | Wink       | Now and then, for no reason |
+|  `( ◕ ᴗ ◕ )`  | Listening  | You're typing a follow-up   |
+|  `( > ▽ < )`  | Tongue out | You clicked it              |
+| `( ᴗ _ ᴗ ) z` | Sleepy     | 25 seconds of nothing       |
+|  `( ╥ _ ╥ )`  | Sad        | Something broke             |
 
 ## How it works
 
@@ -186,13 +186,13 @@ Your key lives in `config.js`, which Git ignores. It is still a plain file insid
 
 ## Under the hood
 
-| | |
-|---|---|
-| Language | Vanilla JavaScript |
-| Platform | Chrome Extension, Manifest V3 |
-| Model | `openai/gpt-oss-120b` on Groq |
-| UI isolation | Shadow DOM |
-| Build step | None |
+|              |                               |
+| ------------ | ----------------------------- |
+| Language     | Vanilla JavaScript            |
+| Platform     | Chrome Extension, Manifest V3 |
+| Model        | `openai/gpt-oss-120b` on Groq |
+| UI isolation | Shadow DOM                    |
+| Build step   | None                          |
 
 ```text
 explain-agent/
